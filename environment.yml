@@ -2,12 +2,16 @@ name: base
 channels:
   - conda-forge
 dependencies:
+  - scipy
+  - matplotlib
+  - pandas
+  - scikit-learn
+  - jupyter
+  - ipython
   - python
   - numpy
   - pip
   - future
-  - pip:
-    - nbgitpuller
-    - sphinx-gallery
-    - pandas
-    - matplotlib
+  - pandas
+  - ipywidgets
+  - seaborn
