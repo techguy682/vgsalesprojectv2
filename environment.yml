@@ -1,6 +1,7 @@
-name: base
+name: vgsalesprojectv2
 channels:
   - conda-forge
+  - default
 dependencies:
   - scipy
   - matplotlib
@@ -15,3 +16,4 @@ dependencies:
   - pandas
   - ipywidgets
   - seaborn
+  - voila
